@@ -69,7 +69,7 @@ header img{
 }
 
 nav a{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     text-decoration: none;
     color: black;
@@ -120,3 +120,169 @@ main{
     padding: 30px 0px;
 }
 
+
+/*========================================== Anuncio =================================================*/
+
+
+.anuncio{
+    background-color: #233032;
+}
+
+.container-anuncio{
+    max-width: 1680px; 
+    min-width: 300px;
+    padding: 20px 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-anuncio h2{
+    font-family: 'poppins';
+    font-size: 40px;
+    padding: 30px 0px;
+    color: white;
+}
+
+.text-anuncio p{
+    font-family: 'poppins';
+    font-size: 24px;
+    color: white;
+}
+
+
+.container-anuncio a{
+    text-decoration: none;
+    font-family: 'poppins';
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.botao-preco{
+    background-color: #2f86d6;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.botao-preco img{
+    width: 30px;
+}
+
+
+/*========================================== informação =================================================*/
+
+
+
+.container-info{
+    max-width: 1680px; 
+    min-width: 300px;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+.container-info h2{
+    font-size: 48px;
+    font-family: 'poppins';
+    text-align: center;
+    max-width: 1280px; 
+    min-width: 300px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.container-info span{
+    color: #2f86d6;
+}
+
+.item-info{
+    max-width: 1680px; 
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.item img{
+    width: 200px;
+}
+
+.item h3{
+    font-size: 28px;
+    font-family: 'poppins';
+    padding: 30px 0px;
+}
+
+.item p{
+    font-size: 22px;
+    font-family: 'poppins';
+}
+
+
+/*========================================== Planos =================================================*/
+
+
+.planos{
+    background-color: #f1f3f7;
+}
+
+.container-planos h2{
+    font-size: 48px;
+    font-family: 'poppins';
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.container-planos span{
+    color: #2f86d6;
+}
+
+table{
+    max-width: 1680px; 
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: #2f86d6 0 0 50px 20px;
+    border-radius: 5px;
+}
+
+th, td{
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+tbody td{
+    border-top: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    padding: 30px 0px;
+}
+
+thead th{
+    border-right: 1px solid #f1f3f7;
+}
+
+th p{
+    font-size: 20px;
+    font-family: 'poppins';
+    color: #a89f9f;
+}
+
+th img{
+    width: 200px;
+}
+
+.koe{
+    background-color: #f1f3f7;
+}
