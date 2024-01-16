@@ -66,6 +66,7 @@ header img{
     font-size: 24px;
     font-family: 'poppins';
     color: #2f86d6;
+    font-weight: 700;
 }
 
 nav a{
@@ -174,6 +175,31 @@ main{
     width: 30px;
 }
 
+.anuncio-2{
+    background-color: #2f86d6;
+}
+
+.anuncio-2 h2{
+    font-family: 'poppins';
+    font-size: 40px;
+    padding: 40px 0px;
+    color: white;
+    max-width: 1024px;
+}
+
+.botao-preco-2{
+    background-color: #233032;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.botao-preco-2 img{
+    width: 30px;
+}
+
 
 /*========================================== informação =================================================*/
 
@@ -232,6 +258,7 @@ main{
 
 .planos{
     background-color: #f1f3f7;
+    padding-bottom: 100px;
 }
 
 .container-planos h2{
@@ -253,6 +280,13 @@ table{
     background-color: white;
     box-shadow: #2f86d6 0 0 50px 20px;
     border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.table-titulo th{
+    font-weight: 900;
+    padding-top: 40px;
+    font-size: 24px;
 }
 
 th, td{
@@ -271,6 +305,7 @@ tbody td{
 
 thead th{
     border-right: 1px solid #f1f3f7;
+    max-width: 300px;
 }
 
 th p{
@@ -285,4 +320,53 @@ th img{
 
 .koe{
     background-color: #f1f3f7;
+}
+
+
+.contato-marca{
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.logo-contato{
+    height: 120px;
+    width: 120px;
+}
+
+.logo-contato img{
+    width: 100%;
+}
+
+.text-contatos{
+    padding-bottom: 80px;
+}
+
+.text-contatos p{
+    font-size: 24px;
+    font-family: 'poppins';
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    line-height: 52px;
+}
+
+footer{
+    padding: 40px;
+    background-color: #f1f3f7;
+}
+
+footer span{
+    color: #2f86d6;
+}
+
+footer p{
+    font-size: 28px;
+    font-family: 'poppins';
+    color: black;
+    font-weight: 700;
+    text-align: center;
 }
